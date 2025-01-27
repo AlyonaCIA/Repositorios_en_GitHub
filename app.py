@@ -1,3 +1,4 @@
+"""This module is to generate the energy table."""
 import dash
 from dash import dcc
 from dash import html
