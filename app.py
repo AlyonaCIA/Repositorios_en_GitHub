@@ -42,6 +42,7 @@ data = load_data()
 
 
 def plot_series(data, initial_date, proy):
+    "Graficar series"
     data_plot = data.loc[initial_date:]
     data_plot = data_plot[:-(120-proy)]
     fig = go.Figure([
